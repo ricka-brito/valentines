@@ -1,6 +1,4 @@
 "use client"
-
-import { useState } from "react"
 import ButtonArea from "./button-area"
 
 function Popup({isOpen}: {isOpen: boolean}) {
