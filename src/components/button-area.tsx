@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import confetti from "canvas-confetti";
 
 function getRandomPosition() {
   return {
     top: Math.random() * 80 + "%",
-    left: Math.random() * 80 + "%",
+    right: Math.random() * 80 + "%",
   };
 }
 

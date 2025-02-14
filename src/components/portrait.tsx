@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
-const PortraitFrame = ({ src, className }) => {
+const PortraitFrame = ({ src, className }: {src: string, className: string}) => {
   const [isSwinging, setIsSwinging] = useState(false);
 
   const startSwing = () => {
